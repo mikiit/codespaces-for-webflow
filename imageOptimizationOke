@@ -1,1 +1,1 @@
-location.pathname.includes("/identities/")&&"/identities/"!==location.pathname&&document.querySelectorAll("img.project-image").forEach((e=>{let t=e.srcset.split(",").slice(2).join(",");e.setAttribute("srcset",t)}));
+console.log("its working!"),location.pathname.includes("/identities/")&&"/identities/"!==location.pathname&&document.querySelectorAll("img.project-image").forEach((e=>{let t=e.srcset.split(",").slice(2).join(",");e.setAttribute("srcset",t)}));
